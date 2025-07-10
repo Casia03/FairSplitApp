@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/add_expense_button_pressed"/>
+    <item android:drawable="@color/add_expense_button"/>
+    <item android:radius="15sp"/>
+</selector>

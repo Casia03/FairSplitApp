@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FairSplit</string>
+    <string name="add_payment_text">Ausgabe hinzufügen</string>
+
+    <string-array name="groupnames">
+        <item>Disneyland</item>
+        <item>Aquarium</item>
+        <item>Strandausflug</item>
+    </string-array>
+
+    //Bottom Navigation Bar
+    <string name="tab_Groups">Gruppen</string>
+    <string name="tab_Activities">Aktivitäten</string>
+    <string name="tab_Profile">Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_profile_fragment">Hello Profile fragment</string>
+    <string name="hello_activity_fragment">Hello Activity fragment</string>
+
+    //Homescreen/Gruppen
+    <string name="overview_dept">Du schuldest insgesamt</string>
+    <string name="overview_crecit">Du bekommst insgesamt</string>
+
+    //GroupDetails
+    <string name="group_overview_debt"> schuldet dir </string>
+    <string name="group_overview_credit">Du schuldest </string>
+    <string name="settle_debts_Button">Schulden\nbegleichen</string>
+    <string name="gdsSpendingItemDebt">Schulden</string>
+    <string name="gdsSpendingItemCredit">Ausgelegt</string>
+    <string name="gdsTime"> Uhr</string>
+    <string name="spendingItem1">Du hast</string>
+    <string name="spendingItem2">hat</string>
+    <string name="spendingItem3">für</string>
+    <string name="spendingItem4">bezahlt</string>
+    <string name="settleUpItem1">an</string>
+    <string name="settleUpItem2">dich</string>
+
+
+    <!--    <string name=""></string>-->
+
+</resources>

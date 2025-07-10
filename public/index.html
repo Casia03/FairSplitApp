@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gruppenlink wird geöffnet...</title>
+  <script>
+    const path = window.location.pathname;
+    const match = path.match(/^\/group\/(.+)/);
+
+    if (match && match[1]) {
+      const groupId = match[1];
+      // Weiterleitung ins App-DeepLink
+      window.location.href = `fairsplit://groupdetails/${groupId}`;
+    } else {
+      document.body.innerHTML = "<h1>Ungültiger Gruppenlink</h1>";
+    }
+  </script>
+</head>
+<body>
+  <p>Gruppendetails werden geöffnet...</p>
+</body>
+</html>

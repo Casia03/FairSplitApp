@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.fairsplit",
+      "sha256_cert_fingerprints": [
+        "C5:B1:92:19:4A:CD:B4:59:12:5B:4E:C9:52:3E:0D:A7:E0:E5:CE:6C:70:63:B7:2D:50:57:74:BD:FC:03:98:8B"
+      ]
+    }
+  }
+]

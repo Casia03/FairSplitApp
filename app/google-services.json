@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "912866995826",
+    "project_id": "fairsplit-dbf6e",
+    "storage_bucket": "fairsplit-dbf6e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912866995826:android:7224b32d544dff9534dceb",
+        "android_client_info": {
+          "package_name": "com.example.fairsplit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR9WY8T0JrC-pxM1W24yce3kXR9qPFuU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

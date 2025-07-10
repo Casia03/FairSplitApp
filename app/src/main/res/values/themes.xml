@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FairSplit" parent="Theme.Material3.Light.NoActionBar" />
+
+    <style name="RoundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="CircleImage" parten="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+<!--    <style name="Theme.FairSplit" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">#6200EE</item>-->
+<!--        <item name="colorPrimaryVariant">#3700B3</item>-->
+<!--        <item name="colorOnPrimary">#FFFFFF</item>-->
+<!--        <item name="colorSecondary">#03DAC5</item>-->
+<!--        &lt;!&ndash; ... &ndash;&gt;-->
+<!--    </style>-->
+
+</resources>
+
+

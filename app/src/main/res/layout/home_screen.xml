@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/schulden"
+        android:layout_width="0dp"
+        android:layout_height="120sp"
+        android:layout_marginBottom="20sp"
+
+        android:background="@drawable/textview_border"
+        android:paddingStart="16sp"
+        android:gravity="center_vertical|start"
+
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/overview_dept"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/rvGroups"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/geld_plus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.45" />
+
+    <TextView
+        android:id="@+id/geld_plus"
+        android:layout_width="0dp"
+        android:layout_height="120sp"
+        android:layout_marginBottom="20sp"
+
+        android:background="@drawable/textview_border"
+        android:paddingStart="16sp"
+        android:gravity="center_vertical|start"
+
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/overview_crecit"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+
+        app:layout_constraintBottom_toTopOf="@+id/rvGroups"
+
+        app:layout_constraintEnd_toStartOf="@id/schulden"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496"
+        app:layout_constraintWidth_percent="0.45" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGroups"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1"
+        tools:listitem="@layout/grouplist_item" />
+
+
+
+    <TextView
+        android:id="@+id/yourGroupsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="none"
+        android:text="Deine Gruppen"
+
+        android:fontFamily="@font/manrope_bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toTopOf="@+id/rvGroups"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<!--Icon von https://icons8.com-->
+    <ImageButton
+        android:id="@+id/btAddGroup"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#F8F8F8"
+        android:contentDescription="add Group Button"
+        android:hapticFeedbackEnabled="false"
+        android:src="@drawable/plus_icon"
+        app:layout_constraintBottom_toTopOf="@+id/rvGroups"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toEndOf="@+id/yourGroupsTV"
+        app:layout_constraintTop_toTopOf="@+id/yourGroupsTV" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/add_payment_text"
+        android:textAllCaps="false"
+        android:elevation="8dp"
+        android:layout_margin="15sp"
+        android:fontFamily="@font/manrope_bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    android:background="@drawable/add_expense_button"-->

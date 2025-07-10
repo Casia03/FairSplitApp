@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_groups"
+        android:icon="@drawable/group_icon_selected"
+        android:title="@string/tab_Groups" />
+    <item
+        android:id="@+id/nav_activities"
+        android:icon="@drawable/activity_icon_selected"
+        android:title="@string/tab_Activities"
+        />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile_icon_unselected"
+        android:title="@string/tab_Profile" />
+</menu>

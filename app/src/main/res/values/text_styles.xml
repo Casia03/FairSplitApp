@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titelüberschrift -->
+    <style name="TextAppearance.Titel" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/manrope_light</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Tabbar - ausgewählt -->
+    <style name="TextAppearance.Tabbar.Selected" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/manrope_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Tabbar - nicht ausgewählt -->
+    <style name="TextAppearance.Tabbar.Unselected" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/manrope_medium</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- ÜbersichtsÜberschrift "Du schuldest Insgesamt" -->
+    <style name="TextAppearance.Uebersicht" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/orbitron_black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Schulden -->
+    <style name="TextAppearance.Schulden" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+        <item name="android:textColor">@color/debt_red</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Credit -->
+    <style name="TextAppearance.Credit" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+        <item name="android:textColor">@color/credit_green</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Gruppenname -->
+    <style name="TextAppearance.Gruppenname" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/manrope_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Standard Text "Tim Schuldet dir" "Gruppennamen Einfügen-->
+    <style name="TextAppearance.Standard" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+
+</resources>
