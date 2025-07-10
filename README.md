@@ -25,6 +25,5 @@ It’s possible that umlauts and ß are only available on a real phone, sometime
 | nils@live.de  | Nils123!      |
 
 ### Known Bugs: 
-- Tapping the backArrow  fast twice results in navigating back to the loading screen: the App needs to be restarted
 - AddSpending: When distributing individual amounts you can give the creditor 0,00 Euro which results in multiple spendings being visible in the group details screen for them (one for each member). You can also make a deselected user the creditor resulting in the same bug, since they have 0,00 Euro to pay. 
 - Activities sometimes don’t show the amount you have to pay or get.
