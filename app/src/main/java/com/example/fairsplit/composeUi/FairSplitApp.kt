@@ -64,8 +64,7 @@ fun FairSplitApp(deepLinkGroupId: String? = null) {
             if (user != null) {  //Wenn man bereits eingelogt ist
                 if (navController.currentBackStackEntry?.destination?.route != "main") { //Gelangt man sofort auf den MainScreen
                     navController.navigate("main") {
-                      
-                        popUpTo("login") { inclusive = true } //LoginScreen wird aus dem Backstack genommen, damit man mit dem ZurückButton nicht wieder dorthin kommt
+                        popUpTo("loading") { inclusive = true } //LoginScreen wird aus dem Backstack genommen, damit man mit dem ZurückButton nicht wieder dorthin kommt
                         launchSingleTop = true
                     }
                 }
@@ -74,7 +73,7 @@ fun FairSplitApp(deepLinkGroupId: String? = null) {
                 }
             } else {  //Wenn man noch nicht eingelogt ist, gelangt man zum login
                 navController.navigate("login") {
-                    popUpTo("login") { inclusive = true }
+                    popUpTo("loading") { inclusive = true }
                 }
             }
         }
@@ -139,7 +138,7 @@ fun AppNavigation(
         composable("register") {
             RegistrationScreen(
                 regVM = regVM,
-                onRegistrationSuccess = { navController.navigate("login") }
+                onRegistrationSuccess = { navController.navigate("login"){ popUpTo("register") { inclusive = true } } }
             )
         }
         composable("main") {

@@ -780,5 +780,4 @@ class GroupViewModel(private val db: Firebase, private val sm: SessionManager) :
             }
         )
     }
-
 }
